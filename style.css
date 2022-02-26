@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-top: 50px;
+    background-color: rgb(54, 50, 50);
+    color: rgb(95, 238, 183);
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+}
+.player{
+    display:flex;
+    justify-content:center;
+}
+.player div{
+    margin:  30px 30px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 85px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+p{
+    font-size: 18px;
+    margin-bottom:30px;
+    font-weight: bold;
+}
+
+input{
+    padding: 8px 50px;
+    font-size: 14px;
+}
+input:hover{
+    color:white;
+    background-color:rgb(95, 238, 183);
+    
+}
